@@ -31,7 +31,3 @@ jobs:
       run: npm install --globbal surge
     - name: deploying using surge
       run: surge ./  hwllo.surge.sh --token ${{ secrets.surge_token }}
-
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
